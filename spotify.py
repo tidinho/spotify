@@ -9,7 +9,7 @@ st.set_page_config(
 
 
 
-df = pd.read_csv("01 Spotify.csv")
+df = pd.read_csv("Spotify.csv")
 
 df.set_index("Track", inplace=True)
 
